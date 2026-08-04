@@ -36,32 +36,12 @@ The study compares ARIMAX, ARMA-GARCH, Elastic Net, XGBoost, LightGBM, and CatBo
 
 ## Research Framework
 
-> **Figure 1** should be placed here (Pipeline Overall Research Framework).
+Pipeline Overall Research Framework
 
 <p align="center">
-<img src="results/figures/framework.png" width="95%">
+<img src="results/figures/framework.jpg" width="95%">
 </p>
 
-The complete workflow consists of six major stages:
-
-```text
-Data Collection
-        │
-        ▼
-Feature Engineering
-        │
-        ▼
-Walk-forward Validation
-        │
-        ▼
-Model Development
-        │
-        ▼
-Statistical & Economic Evaluation
-        │
-        ▼
-Explainability (SHAP)
-```
 
 ## Repository Structure
 
@@ -149,7 +129,7 @@ The empirical findings demonstrate that:
 > Replace the figure below with your final equity curve.
 
 <p align="center">
-<img src="results/figures/equity_curve.png" width="90%">
+<img src="results/figures/equity_curve.jpg" width="90%">
 </p>
 
 
@@ -168,32 +148,17 @@ This enables interpretation of how feature importance evolves across different m
 > Replace with your SHAP summary figure.
 
 <p align="center">
-<img src="results/figures/shap_summary.png" width="90%">
+<img src="results/figures/shap_summary_jpm.jpg" width="90%">
 </p>
 
 
 
-## Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/<your_username>/bank-stock-return-forecasting.git
-
-cd bank-stock-return-forecasting
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Quick Start
 
 ```bash
 # Clone repository
-git clone https://github.com/<your_username>/bank-stock-return-forecasting.git
+git clone https://github.com/vu-leonguyen/bank-stock-return-forecasting.git
 
 # Enter project directory
 cd bank-stock-return-forecasting
@@ -203,17 +168,6 @@ pip install -r requirements.txt
 
 # Launch Jupyter Notebook
 jupyter notebook
-```
-
-
-
-## Paper
-
-The complete research paper is available in:
-
-```text
-paper/
-    paper.pdf
 ```
 
 
@@ -228,7 +182,5 @@ paper/
 This project is released under the **MIT License**.
 
 See the [LICENSE](LICENSE) file for details.
-
-
 
 </div>
