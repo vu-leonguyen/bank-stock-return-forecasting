@@ -53,7 +53,6 @@ bank-stock-return-forecasting/
 ├── paper/                 # Research paper
 ├── results/
 │   ├── figures/           # Figures used in README and paper
-│   └── tables/            # Experimental results
 ├── requirements.txt
 ├── LICENSE
 └── README.md
