@@ -36,8 +36,6 @@ The study compares ARIMAX, ARMA-GARCH, Elastic Net, XGBoost, LightGBM, and CatBo
 
 ## Research Framework
 
-Pipeline Overall Research Framework
-
 <p align="center">
 <img src="results/figures/framework.jpg" width="95%">
 </p>
@@ -125,8 +123,6 @@ The empirical findings demonstrate that:
 
 ###  Equity Curve
 
-> Replace the figure below with your final equity curve.
-
 <p align="center">
 <img src="results/figures/equity_curve.jpg" width="90%">
 </p>
@@ -144,7 +140,6 @@ Two complementary analyses are included:
 
 This enables interpretation of how feature importance evolves across different market conditions.
 
-> Replace with your SHAP summary figure.
 
 <p align="center">
 <img src="results/figures/shap_summary_jpm.jpg" width="90%">
